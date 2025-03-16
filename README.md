@@ -1,4 +1,10 @@
 # Formative2_Data_Preprocessing
+
+
+## Video Explanation
+[Expanation Video](https://drive.google.com/file/d/1wEO2u2RqSNT-EVMJWfWZ1izd3eH7HNul/view?usp=sharing)
+
+
 ## Part 1: Data Augmentation on CSV Files
 
 ### Steps Taken
