@@ -74,3 +74,57 @@
   * Moving averages and time-based aggregations improved behavioral understanding.
   * Even without explicit text data, TF-IDF enhanced feature representation.
   * The final dataset allows for deeper analysis into customer spending and engagement patterns.
+
+
+
+# Part 3: Data Consistency and Quality Checks
+
+## Overview
+
+In this part of the assignment, the goal was to ensure that the final preprocessed dataset is clean, structured, and ready for machine learning applications. This involved performing integrity checks, generating statistical summaries, visualizing distributions, and selecting important features to ensure the dataset's quality.
+
+## Tasks Completed
+
+### 1. Data Integrity Checks
+- **Duplicate Entries**: Checked for any duplicate entries in the dataset and removed them to ensure consistency.
+- **Categorical Values Mapping**: Validated that all categorical values are correctly mapped and that there are no incorrect or missing values.
+- **Matching Transactions to Social Profiles**: Ensured that all customer transactions matched a valid social profile, addressing any missing or invalid relationships.
+
+### 2. Statistical Summarization
+- **Describe() Reports**: Generated summary statistics for all numerical columns in the dataset to understand the data distribution and detect any potential outliers or anomalies.
+- **Transaction Amount Distribution Visualization**: Visualized the distribution of transaction amounts before and after data augmentation to assess how the augmentation techniques impacted the dataset.
+
+### 3. Feature Selection for Machine Learning
+- **Correlation Heatmap**: Created a correlation heatmap to identify highly correlated features and remove redundant data.
+- **Top Features Selection**: Used a feature selection algorithm to select the top 10 most important features for the machine learning model.
+
+### 4. Final Data Export
+- After completing all the necessary preprocessing, the final dataset was saved as `final_dataset_ready_12.csv`.
+
+## Key Insights
+
+- **Data Quality**: Ensured that the dataset was free of duplicates and inconsistencies, allowing for reliable machine learning modeling.
+- **Feature Engineering**: Successfully engineered new features such as the Customer Engagement Score and transactional features to enhance the predictive power of the dataset.
+- **Data Augmentation Impact**: The augmentation techniques applied earlier improved the dataset's quality, balancing customer behavior data and providing better representation for modeling.
+
+## Challenges Faced and Solutions
+
+- **Handling Duplicates**: The dataset contained several duplicate entries, which were resolved by checking for duplicates and removing them programmatically.
+- **Merging Data Across Multiple Sources**: Merging the customer transactions dataset with social media profiles required careful handling of missing and mismatched IDs. This was managed by ensuring that each customer transaction matched an entry in the social profiles dataset after resolving key discrepancies.
+- **Feature Selection Complexity**: Identifying the most relevant features for the machine learning model was challenging due to the variety of features and the complex relationships between them. This was addressed by applying feature selection algorithms and focusing on the most influential features.
+
+## Final Processed Files
+
+- `final_customer_data_12.csv`: The final merged and feature-engineered dataset after completing all steps in Part 2.
+- `final_dataset_ready_12.csv`: The cleaned, transformed, and ready-to-use dataset for machine learning.
+
+## Video Walkthrough
+
+A 5-minute video walkthrough detailing the steps taken, challenges faced, and contributions made by each team member is available.
+
+## Conclusion
+
+The data preprocessing steps in Part 3 ensured the final dataset was ready for machine learning modeling. By addressing issues such as duplicates, inconsistencies, and missing values, and by applying feature engineering techniques, we ensured that the dataset was robust for predictive modeling.
+
+
+
