@@ -11,7 +11,7 @@ pip install -r requirements.txt
 ```
 3. Run the first notebook `preprocessing_1.ipynb` to preprocess the data using KNNs and GANs.
 4. Run the second notebook `preprocessing_2.ipynb` to preprocess the data using PCA.
-5. The data will be saved in the `data` folder.
+5. The data will be saved in the `derived_datasets` folder.
 6. Run the third notebook `preprocessing_3.ipynb` to clean the data and save it in the `data`.
 
 ## Video Explanation
