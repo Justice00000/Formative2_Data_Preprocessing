@@ -77,7 +77,7 @@
 
 
 
-# Part 3: Data Consistency and Quality Checks
+## Part 3: Data Consistency and Quality Checks
 
 ## Overview
 
@@ -117,10 +117,6 @@ In this part of the assignment, the goal was to ensure that the final preprocess
 
 - `final_customer_data_12.csv`: The final merged and feature-engineered dataset after completing all steps in Part 2.
 - `final_dataset_ready_12.csv`: The cleaned, transformed, and ready-to-use dataset for machine learning.
-
-## Video Walkthrough
-
-A 5-minute video walkthrough detailing the steps taken, challenges faced, and contributions made by each team member is available.
 
 ## Conclusion
 
